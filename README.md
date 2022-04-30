@@ -1,4 +1,10 @@
-# AWS 초급 강의 두번째 배포
+# AWS 초급 강의 두번째 last 배포
+
+```txt
+var.sh 파일 수정 필요
+(1) 버전
+(2) 프로젝트 이름
+```
 
 ### Springboot 2.6.6, JDK 11
 - devtools
