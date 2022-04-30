@@ -17,7 +17,7 @@ public class HelloControllerTest {
 
     @Test
     public void hello_테스트(){
-        ResponseEntity<String> response = restTemplate.getForEntity("/aws/v2", String.class);       
+        ResponseEntity<String> response = restTemplate.getForEntity("/aws/v2/last", String.class);       
         assertEquals("<h1>aws v2 last</h1>", response.getBody());
     }
 }
